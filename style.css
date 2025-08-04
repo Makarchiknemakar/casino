@@ -1,0 +1,25 @@
+.dropdown{
+    display:inline;
+}
+body{
+    background-color:azure;
+    text-align: center;
+}
+.fishes{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1600px;
+    margin:0 auto;
+    border: 1px black solid;
+}
+.card{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 0.5px dimgray solid;
+}
+.logo{
+    margin-top:-100px;
+    width:700px;
+    height: auto;
+}
