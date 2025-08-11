@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Довершений Покер</title>
+    <title>Битва проти ШІ</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="poker.css">
 </head>
@@ -13,7 +13,7 @@
         <div class="player-area computer">
             <div class="player-info">
                 <h3>Комп'ютер (ШІ)</h3>
-                <p id="ai-bank">Банк: $1000</p>
+                <p id="ai-bank">Банк: С-М1000</p>
                 <p id="ai-bet" class="bet-amount"></p>
             </div>
             <div id="ai-hand" class="hand">
@@ -23,7 +23,7 @@
         </div>
         <div id="ai-action" class="action-message"></div>
         <div id="player-action" class="action-message player-action-message"></div>
-        <div id="pot" class="pot-area">Банк: $0</div>
+        <div id="pot" class="pot-area">Банк: С-М0</div>
 
         <div id="community-cards" class="community-cards">
             <div class="card empty"></div>
@@ -40,11 +40,11 @@
             </div>
             <div class="player-info">
                 <h3>Ви</h3>
-                <p id="player-bank">Банк: $1000</p>
+                <p id="player-bank">Банк: С-М1000</p>
                 <p id="player-bet" class="bet-amount"></p>
             </div>
             <div class="controls">
-                <button id="deal-btn">Роздати карти</button>
+                <button id="deal-btn">Роздати стар-картки</button>
                 <button id="check-btn" disabled>Чек</button>
                 <button id="call-btn" disabled>Кол</button>
                 <button id="raise-btn" disabled>Рейз</button>
@@ -55,4 +55,5 @@
 
     <script src="poker.js"></script>
 </body>
+
 </html>
