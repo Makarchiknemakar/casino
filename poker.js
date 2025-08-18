@@ -67,11 +67,11 @@ function createCardElement(card, isBack = false) {
 }
 
 function updateUI() {
-    playerBankEl.textContent = `Банк: $${playerBank}`;
-    aiBankEl.textContent = `Банк: $${aiBank}`;
-    potEl.textContent = `Банк: $${pot}`;
-    playerBetEl.textContent = playerBet > 0 ? `Ставка: $${playerBet}` : '';
-    aiBetEl.textContent = aiBet > 0 ? `Ставка: $${aiBet}` : '';
+    playerBankEl.textContent = `Банк: С-М${playerBank}`;
+    aiBankEl.textContent = `Банк: С-М${aiBank}`;
+    potEl.textContent = `Банк: С-М${pot}`;
+    playerBetEl.textContent = playerBet > 0 ? `Ставка: С-М${playerBet}` : '';
+    aiBetEl.textContent = aiBet > 0 ? `Ставка: С-М${aiBet}` : '';
 }
 
 function clearTable() {
@@ -378,4 +378,5 @@ foldBtn.addEventListener('click', () => {
 
 clearTable();
 updateUI();
+
 dealBtn.disabled = false;
